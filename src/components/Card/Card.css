@@ -1,0 +1,68 @@
+.card {
+    height: 150px;
+    width: 500px;
+    /* background-color: ; */
+    margin: 10px;
+}
+
+.card .user-personal-details {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card .user-personal-details .user-image {
+    flex: 1;
+}
+
+.card .user-personal-details .user-image img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 5px auto;
+    display: block;
+}
+
+.card .user-personal-details .user-name {
+    font-size: 32px;
+    font-weight: 600;
+    margin: auto;
+    flex: 5;
+}
+
+.card .user-job {
+    display: flex;
+    flex-direction: row;
+}
+
+.card .user-job .user-job-details {
+    flex: 5;
+    display:  flex;
+    flex-direction: column;
+}
+
+.card .user-job .user-job-details .user-job-title {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: serif;
+}
+
+.card .user-job .user-job-details .user-job-description {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.card .user-job .user-job-skills {
+    flex: 2;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card .user-job .user-job-skills > * {
+    flex: 0 0 30%;
+    margin: 10px 0;
+}
