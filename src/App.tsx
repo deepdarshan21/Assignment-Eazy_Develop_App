@@ -1,6 +1,9 @@
 import { Redirect, Route } from "react-router-dom";
 import { IonApp, setupIonicReact } from "@ionic/react";
 
+/* Pages */
+import Home from "./pages/Home";
+
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
 
@@ -24,7 +27,7 @@ setupIonicReact();
 
 const App: React.FC = () => (
     <IonApp>
-        <h1>Hello</h1>
+        <Home />
     </IonApp>
 );
 
