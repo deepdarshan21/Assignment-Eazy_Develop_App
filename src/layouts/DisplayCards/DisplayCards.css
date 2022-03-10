@@ -5,6 +5,12 @@
     justify-content: space-evenly;
 }
 
-.cards > *{
+.cards > * {
     flex: 0 0 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cards > * {
+        flex: 0 0 350px;
+    }
 }

@@ -28,7 +28,7 @@
 .card .user-personal-details .user-name {
     font-size: 32px;
     font-weight: 600;
-    margin: auto;
+    margin: auto 10px;
     flex: 5;
 }
 
@@ -73,4 +73,10 @@
 .card .user-job .user-job-skills > * {
     flex: 0 0 30%;
     margin: 10px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+      width: 350px;
+  }
 }
